@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="858" systemVersion="11B26" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Skill" representedClassName="Skill">
+        <attribute name="activeorpassive" optional="YES" attributeType="String"/>
+        <attribute name="costline1" optional="YES" attributeType="String"/>
+        <attribute name="costline2" optional="YES" attributeType="String"/>
+        <attribute name="forclass" optional="YES" attributeType="String"/>
+        <attribute name="imagename" optional="YES" attributeType="String"/>
+        <attribute name="level" optional="YES" attributeType="Double" defaultValueString="0"/>
+        <attribute name="levelstr" optional="YES" attributeType="String"/>
+        <attribute name="rune1skill" optional="YES" attributeType="String"/>
+        <attribute name="rune1skilldetail" optional="YES" attributeType="String"/>
+        <attribute name="rune2skill" optional="YES" attributeType="String"/>
+        <attribute name="rune2skilldetail" optional="YES" attributeType="String"/>
+        <attribute name="rune3skill" optional="YES" attributeType="String"/>
+        <attribute name="rune3skilldetail" optional="YES" attributeType="String"/>
+        <attribute name="rune4skill" optional="YES" attributeType="String"/>
+        <attribute name="rune4skilldetail" optional="YES" attributeType="String"/>
+        <attribute name="rune5skill" optional="YES" attributeType="String"/>
+        <attribute name="rune5skilldetail" optional="YES" attributeType="String"/>
+        <attribute name="skilldescription" optional="YES" attributeType="String"/>
+        <attribute name="skillname" optional="YES" attributeType="String"/>
+        <attribute name="skilltype" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Skill" positionX="160" positionY="192" width="128" height="180"/>
+    </elements>
+</model>

@@ -7,6 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF4E85201441F48D00A93E68 /* Skill.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4E851F1441F48D00A93E68 /* Skill.m */; };
+		EF4E85221441F88200A93E68 /* Diablo3.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = EF4E85211441F88200A93E68 /* Diablo3.sqlite */; };
+		EF4E85281441FCA900A93E68 /* alabaster.png in Resources */ = {isa = PBXBuildFile; fileRef = EF4E85231441FCA900A93E68 /* alabaster.png */; };
+		EF4E85291441FCA900A93E68 /* crimson.png in Resources */ = {isa = PBXBuildFile; fileRef = EF4E85241441FCA900A93E68 /* crimson.png */; };
+		EF4E852A1441FCA900A93E68 /* golden.png in Resources */ = {isa = PBXBuildFile; fileRef = EF4E85251441FCA900A93E68 /* golden.png */; };
+		EF4E852B1441FCA900A93E68 /* indigo.png in Resources */ = {isa = PBXBuildFile; fileRef = EF4E85261441FCA900A93E68 /* indigo.png */; };
+		EF4E852C1441FCA900A93E68 /* obsidian.png in Resources */ = {isa = PBXBuildFile; fileRef = EF4E85271441FCA900A93E68 /* obsidian.png */; };
+		EF6480F4143F48B00039713E /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF6480F3143F48B00039713E /* RootViewController.xib */; };
+		EF6480FB143F492D0039713E /* DH.png in Resources */ = {isa = PBXBuildFile; fileRef = EF6480F6143F492D0039713E /* DH.png */; };
+		EF6480FC143F492D0039713E /* MK.png in Resources */ = {isa = PBXBuildFile; fileRef = EF6480F7143F492D0039713E /* MK.png */; };
+		EF6480FD143F492D0039713E /* WD.png in Resources */ = {isa = PBXBuildFile; fileRef = EF6480F8143F492D0039713E /* WD.png */; };
+		EF6480FE143F492D0039713E /* WZ.png in Resources */ = {isa = PBXBuildFile; fileRef = EF6480F9143F492D0039713E /* WZ.png */; };
+		EF648102143F4CB30039713E /* BabarianViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF648100143F4CB30039713E /* BabarianViewController.m */; };
+		EF648103143F4CB30039713E /* BabarianViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF648101143F4CB30039713E /* BabarianViewController.xib */; };
+		EF648107143F4DA90039713E /* WizardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF648105143F4DA80039713E /* WizardViewController.m */; };
+		EF648108143F4DA90039713E /* WizardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF648106143F4DA90039713E /* WizardViewController.xib */; };
+		EF64810C143F4DBF0039713E /* MonkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF64810A143F4DBF0039713E /* MonkViewController.m */; };
+		EF64810D143F4DBF0039713E /* MonkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF64810B143F4DBF0039713E /* MonkViewController.xib */; };
+		EF648111143F4DE40039713E /* WitchDoctorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF64810F143F4DE40039713E /* WitchDoctorViewController.m */; };
+		EF648112143F4DE40039713E /* WitchDoctorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF648110143F4DE40039713E /* WitchDoctorViewController.xib */; };
+		EF648116143F4DFA0039713E /* DemonHunterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF648114143F4DFA0039713E /* DemonHunterViewController.m */; };
+		EF648117143F4DFA0039713E /* DemonHunterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF648115143F4DFA0039713E /* DemonHunterViewController.xib */; };
 		EF72038D143B65FB0009B868 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF72038C143B65FB0009B868 /* UIKit.framework */; };
 		EF72038F143B65FB0009B868 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF72038E143B65FB0009B868 /* Foundation.framework */; };
 		EF720391143B65FB0009B868 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF720390143B65FB0009B868 /* CoreGraphics.framework */; };
@@ -15,24 +37,313 @@
 		EF72039D143B65FB0009B868 /* D3AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF72039C143B65FB0009B868 /* D3AppDelegate.m */; };
 		EF7203A0143B65FB0009B868 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF72039E143B65FB0009B868 /* MainWindow.xib */; };
 		EF7203A3143B65FB0009B868 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7203A2143B65FB0009B868 /* RootViewController.m */; };
-		EF7203A6143B65FB0009B868 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF7203A4143B65FB0009B868 /* RootViewController.xib */; };
+		EF7203AD143B663F0009B868 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF7203AC143B663F0009B868 /* MediaPlayer.framework */; };
+		EF7203AF143B66450009B868 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF7203AE143B66450009B868 /* AVFoundation.framework */; };
+		EF7203B1143B66980009B868 /* iphone1.m4v in Resources */ = {isa = PBXBuildFile; fileRef = EF7203B0143B66980009B868 /* iphone1.m4v */; };
+		EF7203B5143B6BA50009B868 /* BGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7203B3143B6BA50009B868 /* BGViewController.m */; };
+		EF7203B6143B6BA50009B868 /* BGViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF7203B4143B6BA50009B868 /* BGViewController.xib */; };
+		EFCD9FE8143F571A000B0D0F /* bbr2.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCD9FE7143F571A000B0D0F /* bbr2.png */; };
+		EFCD9FEC143F5759000B0D0F /* SkillDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFCD9FEA143F5758000B0D0F /* SkillDetailViewController.m */; };
+		EFCD9FED143F5759000B0D0F /* SkillDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFCD9FEB143F5759000B0D0F /* SkillDetailViewController.xib */; };
+		EFCD9FEF143F57A7000B0D0F /* SkillCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFCD9FEE143F57A6000B0D0F /* SkillCell.xib */; };
+		EFCD9FF2143F57B9000B0D0F /* SkillCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EFCD9FF1143F57B9000B0D0F /* SkillCell.m */; };
+		EFCD9FF7143F6256000B0D0F /* texture.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFCD9FF6143F6255000B0D0F /* texture.jpg */; };
+		EFCDA02E143FF995000B0D0F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFCDA02D143FF995000B0D0F /* CoreData.framework */; };
+		EFCDA031143FFB2A000B0D0F /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EFCDA02F143FFB29000B0D0F /* Model.xcdatamodeld */; };
+		EFCFB2A01440A09600428E75 /* BBR.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB2891440A09600428E75 /* BBR.png */; };
+		EFCFB32F1440AF9100428E75 /* demonhunter_bolashot.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB2C61440AF9100428E75 /* demonhunter_bolashot.png */; };
+		EFCFB3301440AF9100428E75 /* demonhunter_caltrops.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB2C71440AF9100428E75 /* demonhunter_caltrops.png */; };
+		EFCFB3311440AF9100428E75 /* demonhunter_chakram.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB2C81440AF9100428E75 /* demonhunter_chakram.png */; };
+		EFCFB3321440AF9100428E75 /* demonhunter_clusterarrow.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB2C91440AF9100428E75 /* demonhunter_clusterarrow.png */; };
+		EFCFB3331440AF9100428E75 /* demonhunter_companion.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB2CA1440AF9100428E75 /* demonhunter_companion.png */; };
+		EFCFB3341440AF9100428E75 /* demonhunter_elementalarrow.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB2CB1440AF9100428E75 /* demonhunter_elementalarrow.png */; };
+		EFCFB3351440AF9100428E75 /* demonhunter_entanglingshot.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB2CC1440AF9100428E75 /* demonhunter_entanglingshot.png */; };
+		EFCFB3361440AF9100428E75 /* demonhunter_fanofknives.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB2CD1440AF9100428E75 /* demonhunter_fanofknives.png */; };
+		EFCFB3371440AF9100428E75 /* demonhunter_grenades.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB2CE1440AF9100428E75 /* demonhunter_grenades.png */; };
+		EFCFB3381440AF9100428E75 /* demonhunter_hungeringarrow.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB2CF1440AF9100428E75 /* demonhunter_hungeringarrow.png */; };
+		EFCFB3391440AF9100428E75 /* demonhunter_impale.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB2D01440AF9100428E75 /* demonhunter_impale.png */; };
+		EFCFB33A1440AF9100428E75 /* demonhunter_markedfordeath.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB2D11440AF9100428E75 /* demonhunter_markedfordeath.png */; };
+		EFCFB33B1440AF9100428E75 /* demonhunter_multishot.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB2D21440AF9100428E75 /* demonhunter_multishot.png */; };
+		EFCFB33C1440AF9100428E75 /* demonhunter_preparation.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB2D31440AF9100428E75 /* demonhunter_preparation.png */; };
+		EFCFB33D1440AF9100428E75 /* demonhunter_rainofvengeance.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB2D41440AF9100428E75 /* demonhunter_rainofvengeance.png */; };
+		EFCFB33E1440AF9100428E75 /* demonhunter_rapidfire.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB2D51440AF9100428E75 /* demonhunter_rapidfire.png */; };
+		EFCFB33F1440AF9100428E75 /* demonhunter_safetyshot.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB2D61440AF9100428E75 /* demonhunter_safetyshot.png */; };
+		EFCFB3401440AF9100428E75 /* demonhunter_sentry.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB2D71440AF9100428E75 /* demonhunter_sentry.png */; };
+		EFCFB3411440AF9100428E75 /* demonhunter_shadowpower.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB2D81440AF9100428E75 /* demonhunter_shadowpower.png */; };
+		EFCFB3421440AF9100428E75 /* demonhunter_smokescreen.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB2D91440AF9100428E75 /* demonhunter_smokescreen.png */; };
+		EFCFB3431440AF9100428E75 /* demonhunter_spiketrap.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB2DA1440AF9100428E75 /* demonhunter_spiketrap.png */; };
+		EFCFB3441440AF9100428E75 /* demonhunter_strafe.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB2DB1440AF9100428E75 /* demonhunter_strafe.png */; };
+		EFCFB3451440AF9100428E75 /* demonhunter_vault.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB2DC1440AF9100428E75 /* demonhunter_vault.png */; };
+		EFCFB3461440AF9100428E75 /* monk_blindingflash.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB2DD1440AF9100428E75 /* monk_blindingflash.png */; };
+		EFCFB3471440AF9100428E75 /* monk_breathofheaven.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB2DE1440AF9100428E75 /* monk_breathofheaven.png */; };
+		EFCFB3481440AF9100428E75 /* monk_cripplingwave.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB2DF1440AF9100428E75 /* monk_cripplingwave.png */; };
+		EFCFB3491440AF9100428E75 /* monk_dashingstrike.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB2E01440AF9100428E75 /* monk_dashingstrike.png */; };
+		EFCFB34A1440AF9100428E75 /* monk_deadlyreach.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB2E11440AF9100428E75 /* monk_deadlyreach.png */; };
+		EFCFB34B1440AF9100428E75 /* monk_explodingpalm.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB2E21440AF9100428E75 /* monk_explodingpalm.png */; };
+		EFCFB34C1440AF9100428E75 /* monk_fistsofthunder.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB2E31440AF9100428E75 /* monk_fistsofthunder.png */; };
+		EFCFB34D1440AF9100428E75 /* monk_innersanctuary.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB2E41440AF9100428E75 /* monk_innersanctuary.png */; };
+		EFCFB34E1440AF9100428E75 /* monk_lashingtailkick.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB2E51440AF9100428E75 /* monk_lashingtailkick.png */; };
+		EFCFB34F1440AF9100428E75 /* monk_lethaldecoy.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB2E61440AF9100428E75 /* monk_lethaldecoy.png */; };
+		EFCFB3501440AF9100428E75 /* monk_mantraofconviction.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB2E71440AF9100428E75 /* monk_mantraofconviction.png */; };
+		EFCFB3511440AF9100428E75 /* monk_mantraofevasion.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB2E81440AF9100428E75 /* monk_mantraofevasion.png */; };
+		EFCFB3521440AF9100428E75 /* monk_mantraofhealing.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB2E91440AF9100428E75 /* monk_mantraofhealing.png */; };
+		EFCFB3531440AF9100428E75 /* monk_mantraofretribution.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB2EA1440AF9100428E75 /* monk_mantraofretribution.png */; };
+		EFCFB3541440AF9100428E75 /* monk_mystically.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB2EB1440AF9100428E75 /* monk_mystically.png */; };
+		EFCFB3551440AF9100428E75 /* monk_serenity.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB2EC1440AF9100428E75 /* monk_serenity.png */; };
+		EFCFB3561440AF9100428E75 /* monk_sevensidedstrike.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB2ED1440AF9100428E75 /* monk_sevensidedstrike.png */; };
+		EFCFB3571440AF9100428E75 /* monk_sweepingwind.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB2EE1440AF9100428E75 /* monk_sweepingwind.png */; };
+		EFCFB3581440AF9100428E75 /* monk_tempestrush.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB2EF1440AF9100428E75 /* monk_tempestrush.png */; };
+		EFCFB3591440AF9100428E75 /* monk_waveoflight.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB2F01440AF9100428E75 /* monk_waveoflight.png */; };
+		EFCFB35A1440AF9100428E75 /* monk_wayofthehundredfists.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB2F11440AF9100428E75 /* monk_wayofthehundredfists.png */; };
+		EFCFB35B1440AF9100428E75 /* witchdoctor_acidcloud.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB2F21440AF9100428E75 /* witchdoctor_acidcloud.png */; };
+		EFCFB35C1440AF9100428E75 /* witchdoctor_bigbadvoodoo.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB2F31440AF9100428E75 /* witchdoctor_bigbadvoodoo.png */; };
+		EFCFB35D1440AF9100428E75 /* witchdoctor_corpsespider.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB2F41440AF9100428E75 /* witchdoctor_corpsespider.png */; };
+		EFCFB35E1440AF9100428E75 /* witchdoctor_fetisharmy.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB2F51440AF9100428E75 /* witchdoctor_fetisharmy.png */; };
+		EFCFB35F1440AF9100428E75 /* witchdoctor_firebats.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB2F61440AF9100428E75 /* witchdoctor_firebats.png */; };
+		EFCFB3601440AF9100428E75 /* witchdoctor_firebomb.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB2F71440AF9100428E75 /* witchdoctor_firebomb.png */; };
+		EFCFB3611440AF9100428E75 /* witchdoctor_gargantuan.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB2F81440AF9100428E75 /* witchdoctor_gargantuan.png */; };
+		EFCFB3621440AF9100428E75 /* witchdoctor_graspofthedead.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB2F91440AF9100428E75 /* witchdoctor_graspofthedead.png */; };
+		EFCFB3631440AF9100428E75 /* witchdoctor_haunt.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB2FA1440AF9100428E75 /* witchdoctor_haunt.png */; };
+		EFCFB3641440AF9100428E75 /* witchdoctor_hex.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB2FB1440AF9100428E75 /* witchdoctor_hex.png */; };
+		EFCFB3651440AF9100428E75 /* witchdoctor_horrify.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB2FC1440AF9100428E75 /* witchdoctor_horrify.png */; };
+		EFCFB3661440AF9100428E75 /* witchdoctor_locust_swarm.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB2FD1440AF9100428E75 /* witchdoctor_locust_swarm.png */; };
+		EFCFB3671440AF9100428E75 /* witchdoctor_massconfusion.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB2FE1440AF9100428E75 /* witchdoctor_massconfusion.png */; };
+		EFCFB3681440AF9100428E75 /* witchdoctor_plagueoftoads.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB2FF1440AF9100428E75 /* witchdoctor_plagueoftoads.png */; };
+		EFCFB3691440AF9100428E75 /* witchdoctor_poisondart.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB3001440AF9100428E75 /* witchdoctor_poisondart.png */; };
+		EFCFB36A1440AF9100428E75 /* witchdoctor_sacrifice.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB3011440AF9100428E75 /* witchdoctor_sacrifice.png */; };
+		EFCFB36B1440AF9100428E75 /* witchdoctor_soulharvest.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB3021440AF9100428E75 /* witchdoctor_soulharvest.png */; };
+		EFCFB36C1440AF9100428E75 /* witchdoctor_spiritbarrage.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB3031440AF9100428E75 /* witchdoctor_spiritbarrage.png */; };
+		EFCFB36D1440AF9100428E75 /* witchdoctor_spiritwalk.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB3041440AF9100428E75 /* witchdoctor_spiritwalk.png */; };
+		EFCFB36E1440AF9100428E75 /* witchdoctor_summonzombiedog.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB3051440AF9100428E75 /* witchdoctor_summonzombiedog.png */; };
+		EFCFB36F1440AF9100428E75 /* witchdoctor_wallofzombies.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB3061440AF9100428E75 /* witchdoctor_wallofzombies.png */; };
+		EFCFB3701440AF9100428E75 /* witchdoctor_zombiecharger.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB3071440AF9100428E75 /* witchdoctor_zombiecharger.png */; };
+		EFCFB3711440AF9100428E75 /* wizard_arcaneorb.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB3081440AF9100428E75 /* wizard_arcaneorb.png */; };
+		EFCFB3721440AF9100428E75 /* wizard_arcanetorrent.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB3091440AF9100428E75 /* wizard_arcanetorrent.png */; };
+		EFCFB3731440AF9100428E75 /* wizard_archon.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB30A1440AF9100428E75 /* wizard_archon.png */; };
+		EFCFB3741440AF9100428E75 /* wizard_blizzard.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB30B1440AF9100428E75 /* wizard_blizzard.png */; };
+		EFCFB3751440AF9100428E75 /* wizard_diamondskin.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB30C1440AF9100428E75 /* wizard_diamondskin.png */; };
+		EFCFB3761440AF9100428E75 /* wizard_disintegrate.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB30D1440AF9100428E75 /* wizard_disintegrate.png */; };
+		EFCFB3771440AF9100428E75 /* wizard_electrocute.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB30E1440AF9100428E75 /* wizard_electrocute.png */; };
+		EFCFB3781440AF9100428E75 /* wizard_energyarmor.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB30F1440AF9100428E75 /* wizard_energyarmor.png */; };
+		EFCFB3791440AF9100428E75 /* wizard_energytwister.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB3101440AF9100428E75 /* wizard_energytwister.png */; };
+		EFCFB37A1440AF9100428E75 /* wizard_explosiveblast.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB3111440AF9100428E75 /* wizard_explosiveblast.png */; };
+		EFCFB37B1440AF9100428E75 /* wizard_familiar.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB3121440AF9100428E75 /* wizard_familiar.png */; };
+		EFCFB37C1440AF9100428E75 /* wizard_frostnova.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB3131440AF9100428E75 /* wizard_frostnova.png */; };
+		EFCFB37D1440AF9100428E75 /* wizard_hydra.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB3141440AF9100428E75 /* wizard_hydra.png */; };
+		EFCFB37E1440AF9100428E75 /* wizard_icearmor.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB3151440AF9100428E75 /* wizard_icearmor.png */; };
+		EFCFB37F1440AF9100428E75 /* wizard_magicmissile.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB3161440AF9100428E75 /* wizard_magicmissile.png */; };
+		EFCFB3801440AF9100428E75 /* wizard_magicweapon.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB3171440AF9100428E75 /* wizard_magicweapon.png */; };
+		EFCFB3811440AF9100428E75 /* wizard_meteor.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB3181440AF9100428E75 /* wizard_meteor.png */; };
+		EFCFB3821440AF9100428E75 /* wizard_mirrorimage.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB3191440AF9100428E75 /* wizard_mirrorimage.png */; };
+		EFCFB3831440AF9100428E75 /* wizard_rayoffrost.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB31A1440AF9100428E75 /* wizard_rayoffrost.png */; };
+		EFCFB3841440AF9100428E75 /* wizard_shockpulse.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB31B1440AF9100428E75 /* wizard_shockpulse.png */; };
+		EFCFB3851440AF9100428E75 /* wizard_slowtime.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB31C1440AF9100428E75 /* wizard_slowtime.png */; };
+		EFCFB3861440AF9100428E75 /* wizard_spectralblade.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB31D1440AF9100428E75 /* wizard_spectralblade.png */; };
+		EFCFB3871440AF9100428E75 /* wizard_stormarmor.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB31E1440AF9100428E75 /* wizard_stormarmor.png */; };
+		EFCFB3881440AF9100428E75 /* wizard_teleport.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB31F1440AF9100428E75 /* wizard_teleport.png */; };
+		EFCFB3891440AF9100428E75 /* wizard_waveofforce.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB3201440AF9100428E75 /* wizard_waveofforce.png */; };
+		EFCFB38D1440B5C000428E75 /* levelicon.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB38C1440B5C000428E75 /* levelicon.png */; };
+		EFCFB3AB1441CDA800428E75 /* barbarian_ancientspear.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB3951441CDA600428E75 /* barbarian_ancientspear.png */; };
+		EFCFB3AC1441CDA800428E75 /* barbarian_bash.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB3961441CDA600428E75 /* barbarian_bash.png */; };
+		EFCFB3AD1441CDA800428E75 /* barbarian_battlerage.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB3971441CDA600428E75 /* barbarian_battlerage.png */; };
+		EFCFB3AE1441CDA800428E75 /* barbarian_calloftheancients.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB3981441CDA600428E75 /* barbarian_calloftheancients.png */; };
+		EFCFB3AF1441CDA800428E75 /* barbarian_cleave.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB3991441CDA600428E75 /* barbarian_cleave.png */; };
+		EFCFB3B01441CDA800428E75 /* barbarian_earthquake.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB39A1441CDA600428E75 /* barbarian_earthquake.png */; };
+		EFCFB3B11441CDA800428E75 /* barbarian_frenzy.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB39B1441CDA600428E75 /* barbarian_frenzy.png */; };
+		EFCFB3B21441CDA800428E75 /* barbarian_furiouscharge.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB39C1441CDA600428E75 /* barbarian_furiouscharge.png */; };
+		EFCFB3B31441CDA800428E75 /* barbarian_groundstomp.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB39D1441CDA700428E75 /* barbarian_groundstomp.png */; };
+		EFCFB3B41441CDA800428E75 /* barbarian_hammeroftheancients.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB39E1441CDA700428E75 /* barbarian_hammeroftheancients.png */; };
+		EFCFB3B51441CDA800428E75 /* barbarian_ignorepain.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB39F1441CDA700428E75 /* barbarian_ignorepain.png */; };
+		EFCFB3B61441CDA800428E75 /* barbarian_leap.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB3A01441CDA700428E75 /* barbarian_leap.png */; };
+		EFCFB3B71441CDA800428E75 /* barbarian_overpower.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB3A11441CDA700428E75 /* barbarian_overpower.png */; };
+		EFCFB3B81441CDA800428E75 /* barbarian_rend.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB3A21441CDA700428E75 /* barbarian_rend.png */; };
+		EFCFB3B91441CDA800428E75 /* barbarian_revenge.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB3A31441CDA700428E75 /* barbarian_revenge.png */; };
+		EFCFB3BA1441CDA800428E75 /* barbarian_seismicslam.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB3A41441CDA700428E75 /* barbarian_seismicslam.png */; };
+		EFCFB3BB1441CDA800428E75 /* barbarian_sprint.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB3A51441CDA700428E75 /* barbarian_sprint.png */; };
+		EFCFB3BC1441CDA800428E75 /* barbarian_threateningshout.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB3A61441CDA700428E75 /* barbarian_threateningshout.png */; };
+		EFCFB3BD1441CDA800428E75 /* barbarian_warcry.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB3A71441CDA700428E75 /* barbarian_warcry.png */; };
+		EFCFB3BE1441CDA800428E75 /* barbarian_weaponthrow.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB3A81441CDA700428E75 /* barbarian_weaponthrow.png */; };
+		EFCFB3BF1441CDA800428E75 /* barbarian_whirlwind.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB3A91441CDA800428E75 /* barbarian_whirlwind.png */; };
+		EFCFB3C01441CDA800428E75 /* barbarian_wrathoftheberserker.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCFB3AA1441CDA800428E75 /* barbarian_wrathoftheberserker.png */; };
+		EFD4D179143C989D00B9FCF9 /* diablo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EFD4D178143C989D00B9FCF9 /* diablo.ttf */; };
+		EFD4D17F143C9C9500B9FCF9 /* diabloheavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EFD4D17E143C9C9500B9FCF9 /* diabloheavy.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EF4E851E1441F48D00A93E68 /* Skill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Skill.h; sourceTree = "<group>"; };
+		EF4E851F1441F48D00A93E68 /* Skill.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Skill.m; sourceTree = "<group>"; };
+		EF4E85211441F88200A93E68 /* Diablo3.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Diablo3.sqlite; sourceTree = "<group>"; };
+		EF4E85231441FCA900A93E68 /* alabaster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alabaster.png; sourceTree = "<group>"; };
+		EF4E85241441FCA900A93E68 /* crimson.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crimson.png; sourceTree = "<group>"; };
+		EF4E85251441FCA900A93E68 /* golden.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = golden.png; sourceTree = "<group>"; };
+		EF4E85261441FCA900A93E68 /* indigo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = indigo.png; sourceTree = "<group>"; };
+		EF4E85271441FCA900A93E68 /* obsidian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = obsidian.png; sourceTree = "<group>"; };
+		EF6480F3143F48B00039713E /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		EF6480F6143F492D0039713E /* DH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DH.png; sourceTree = "<group>"; };
+		EF6480F7143F492D0039713E /* MK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MK.png; sourceTree = "<group>"; };
+		EF6480F8143F492D0039713E /* WD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WD.png; sourceTree = "<group>"; };
+		EF6480F9143F492D0039713E /* WZ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WZ.png; sourceTree = "<group>"; };
+		EF6480FF143F4CB30039713E /* BabarianViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabarianViewController.h; sourceTree = "<group>"; };
+		EF648100143F4CB30039713E /* BabarianViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabarianViewController.m; sourceTree = "<group>"; };
+		EF648101143F4CB30039713E /* BabarianViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BabarianViewController.xib; sourceTree = "<group>"; };
+		EF648104143F4DA80039713E /* WizardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WizardViewController.h; sourceTree = "<group>"; };
+		EF648105143F4DA80039713E /* WizardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WizardViewController.m; sourceTree = "<group>"; };
+		EF648106143F4DA90039713E /* WizardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WizardViewController.xib; sourceTree = "<group>"; };
+		EF648109143F4DBF0039713E /* MonkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonkViewController.h; sourceTree = "<group>"; };
+		EF64810A143F4DBF0039713E /* MonkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonkViewController.m; sourceTree = "<group>"; };
+		EF64810B143F4DBF0039713E /* MonkViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MonkViewController.xib; sourceTree = "<group>"; };
+		EF64810E143F4DE40039713E /* WitchDoctorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WitchDoctorViewController.h; sourceTree = "<group>"; };
+		EF64810F143F4DE40039713E /* WitchDoctorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WitchDoctorViewController.m; sourceTree = "<group>"; };
+		EF648110143F4DE40039713E /* WitchDoctorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WitchDoctorViewController.xib; sourceTree = "<group>"; };
+		EF648113143F4DFA0039713E /* DemonHunterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemonHunterViewController.h; sourceTree = "<group>"; };
+		EF648114143F4DFA0039713E /* DemonHunterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemonHunterViewController.m; sourceTree = "<group>"; };
+		EF648115143F4DFA0039713E /* DemonHunterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemonHunterViewController.xib; sourceTree = "<group>"; };
 		EF720388143B65FB0009B868 /* D3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = D3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF72038C143B65FB0009B868 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EF72038E143B65FB0009B868 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EF720390143B65FB0009B868 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		EF720394143B65FB0009B868 /* D3-Info.plist */ = {isa = PBXFileReference; path = "D3-Info.plist"; sourceTree = "<group>"; };
+		EF720394143B65FB0009B868 /* D3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "D3-Info.plist"; sourceTree = "<group>"; };
 		EF720396143B65FB0009B868 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EF720398143B65FB0009B868 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EF72039A143B65FB0009B868 /* D3-Prefix.pch */ = {isa = PBXFileReference; path = "D3-Prefix.pch"; sourceTree = "<group>"; };
-		EF72039B143B65FB0009B868 /* D3AppDelegate.h */ = {isa = PBXFileReference; path = D3AppDelegate.h; sourceTree = "<group>"; };
+		EF72039A143B65FB0009B868 /* D3-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "D3-Prefix.pch"; sourceTree = "<group>"; };
+		EF72039B143B65FB0009B868 /* D3AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = D3AppDelegate.h; sourceTree = "<group>"; };
 		EF72039C143B65FB0009B868 /* D3AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = D3AppDelegate.m; sourceTree = "<group>"; };
 		EF72039F143B65FB0009B868 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		EF7203A1143B65FB0009B868 /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		EF7203A1143B65FB0009B868 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		EF7203A2143B65FB0009B868 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		EF7203A5143B65FB0009B868 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		EF7203AC143B663F0009B868 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		EF7203AE143B66450009B868 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EF7203B0143B66980009B868 /* iphone1.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = iphone1.m4v; sourceTree = "<group>"; };
+		EF7203B2143B6BA50009B868 /* BGViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGViewController.h; sourceTree = "<group>"; };
+		EF7203B3143B6BA50009B868 /* BGViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGViewController.m; sourceTree = "<group>"; };
+		EF7203B4143B6BA50009B868 /* BGViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BGViewController.xib; sourceTree = "<group>"; };
+		EFCD9FE7143F571A000B0D0F /* bbr2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bbr2.png; sourceTree = "<group>"; };
+		EFCD9FE9143F5758000B0D0F /* SkillDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkillDetailViewController.h; sourceTree = "<group>"; };
+		EFCD9FEA143F5758000B0D0F /* SkillDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkillDetailViewController.m; sourceTree = "<group>"; };
+		EFCD9FEB143F5759000B0D0F /* SkillDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SkillDetailViewController.xib; sourceTree = "<group>"; };
+		EFCD9FEE143F57A6000B0D0F /* SkillCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SkillCell.xib; sourceTree = "<group>"; };
+		EFCD9FF0143F57B9000B0D0F /* SkillCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkillCell.h; sourceTree = "<group>"; };
+		EFCD9FF1143F57B9000B0D0F /* SkillCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkillCell.m; sourceTree = "<group>"; };
+		EFCD9FF6143F6255000B0D0F /* texture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = texture.jpg; sourceTree = "<group>"; };
+		EFCDA02D143FF995000B0D0F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EFCDA030143FFB2A000B0D0F /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		EFCFB2891440A09600428E75 /* BBR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BBR.png; sourceTree = "<group>"; };
+		EFCFB2C61440AF9100428E75 /* demonhunter_bolashot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demonhunter_bolashot.png; sourceTree = "<group>"; };
+		EFCFB2C71440AF9100428E75 /* demonhunter_caltrops.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demonhunter_caltrops.png; sourceTree = "<group>"; };
+		EFCFB2C81440AF9100428E75 /* demonhunter_chakram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demonhunter_chakram.png; sourceTree = "<group>"; };
+		EFCFB2C91440AF9100428E75 /* demonhunter_clusterarrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demonhunter_clusterarrow.png; sourceTree = "<group>"; };
+		EFCFB2CA1440AF9100428E75 /* demonhunter_companion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demonhunter_companion.png; sourceTree = "<group>"; };
+		EFCFB2CB1440AF9100428E75 /* demonhunter_elementalarrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demonhunter_elementalarrow.png; sourceTree = "<group>"; };
+		EFCFB2CC1440AF9100428E75 /* demonhunter_entanglingshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demonhunter_entanglingshot.png; sourceTree = "<group>"; };
+		EFCFB2CD1440AF9100428E75 /* demonhunter_fanofknives.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demonhunter_fanofknives.png; sourceTree = "<group>"; };
+		EFCFB2CE1440AF9100428E75 /* demonhunter_grenades.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demonhunter_grenades.png; sourceTree = "<group>"; };
+		EFCFB2CF1440AF9100428E75 /* demonhunter_hungeringarrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demonhunter_hungeringarrow.png; sourceTree = "<group>"; };
+		EFCFB2D01440AF9100428E75 /* demonhunter_impale.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demonhunter_impale.png; sourceTree = "<group>"; };
+		EFCFB2D11440AF9100428E75 /* demonhunter_markedfordeath.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demonhunter_markedfordeath.png; sourceTree = "<group>"; };
+		EFCFB2D21440AF9100428E75 /* demonhunter_multishot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demonhunter_multishot.png; sourceTree = "<group>"; };
+		EFCFB2D31440AF9100428E75 /* demonhunter_preparation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demonhunter_preparation.png; sourceTree = "<group>"; };
+		EFCFB2D41440AF9100428E75 /* demonhunter_rainofvengeance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demonhunter_rainofvengeance.png; sourceTree = "<group>"; };
+		EFCFB2D51440AF9100428E75 /* demonhunter_rapidfire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demonhunter_rapidfire.png; sourceTree = "<group>"; };
+		EFCFB2D61440AF9100428E75 /* demonhunter_safetyshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demonhunter_safetyshot.png; sourceTree = "<group>"; };
+		EFCFB2D71440AF9100428E75 /* demonhunter_sentry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demonhunter_sentry.png; sourceTree = "<group>"; };
+		EFCFB2D81440AF9100428E75 /* demonhunter_shadowpower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demonhunter_shadowpower.png; sourceTree = "<group>"; };
+		EFCFB2D91440AF9100428E75 /* demonhunter_smokescreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demonhunter_smokescreen.png; sourceTree = "<group>"; };
+		EFCFB2DA1440AF9100428E75 /* demonhunter_spiketrap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demonhunter_spiketrap.png; sourceTree = "<group>"; };
+		EFCFB2DB1440AF9100428E75 /* demonhunter_strafe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demonhunter_strafe.png; sourceTree = "<group>"; };
+		EFCFB2DC1440AF9100428E75 /* demonhunter_vault.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demonhunter_vault.png; sourceTree = "<group>"; };
+		EFCFB2DD1440AF9100428E75 /* monk_blindingflash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monk_blindingflash.png; sourceTree = "<group>"; };
+		EFCFB2DE1440AF9100428E75 /* monk_breathofheaven.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monk_breathofheaven.png; sourceTree = "<group>"; };
+		EFCFB2DF1440AF9100428E75 /* monk_cripplingwave.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monk_cripplingwave.png; sourceTree = "<group>"; };
+		EFCFB2E01440AF9100428E75 /* monk_dashingstrike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monk_dashingstrike.png; sourceTree = "<group>"; };
+		EFCFB2E11440AF9100428E75 /* monk_deadlyreach.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monk_deadlyreach.png; sourceTree = "<group>"; };
+		EFCFB2E21440AF9100428E75 /* monk_explodingpalm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monk_explodingpalm.png; sourceTree = "<group>"; };
+		EFCFB2E31440AF9100428E75 /* monk_fistsofthunder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monk_fistsofthunder.png; sourceTree = "<group>"; };
+		EFCFB2E41440AF9100428E75 /* monk_innersanctuary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monk_innersanctuary.png; sourceTree = "<group>"; };
+		EFCFB2E51440AF9100428E75 /* monk_lashingtailkick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monk_lashingtailkick.png; sourceTree = "<group>"; };
+		EFCFB2E61440AF9100428E75 /* monk_lethaldecoy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monk_lethaldecoy.png; sourceTree = "<group>"; };
+		EFCFB2E71440AF9100428E75 /* monk_mantraofconviction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monk_mantraofconviction.png; sourceTree = "<group>"; };
+		EFCFB2E81440AF9100428E75 /* monk_mantraofevasion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monk_mantraofevasion.png; sourceTree = "<group>"; };
+		EFCFB2E91440AF9100428E75 /* monk_mantraofhealing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monk_mantraofhealing.png; sourceTree = "<group>"; };
+		EFCFB2EA1440AF9100428E75 /* monk_mantraofretribution.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monk_mantraofretribution.png; sourceTree = "<group>"; };
+		EFCFB2EB1440AF9100428E75 /* monk_mystically.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monk_mystically.png; sourceTree = "<group>"; };
+		EFCFB2EC1440AF9100428E75 /* monk_serenity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monk_serenity.png; sourceTree = "<group>"; };
+		EFCFB2ED1440AF9100428E75 /* monk_sevensidedstrike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monk_sevensidedstrike.png; sourceTree = "<group>"; };
+		EFCFB2EE1440AF9100428E75 /* monk_sweepingwind.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monk_sweepingwind.png; sourceTree = "<group>"; };
+		EFCFB2EF1440AF9100428E75 /* monk_tempestrush.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monk_tempestrush.png; sourceTree = "<group>"; };
+		EFCFB2F01440AF9100428E75 /* monk_waveoflight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monk_waveoflight.png; sourceTree = "<group>"; };
+		EFCFB2F11440AF9100428E75 /* monk_wayofthehundredfists.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monk_wayofthehundredfists.png; sourceTree = "<group>"; };
+		EFCFB2F21440AF9100428E75 /* witchdoctor_acidcloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = witchdoctor_acidcloud.png; sourceTree = "<group>"; };
+		EFCFB2F31440AF9100428E75 /* witchdoctor_bigbadvoodoo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = witchdoctor_bigbadvoodoo.png; sourceTree = "<group>"; };
+		EFCFB2F41440AF9100428E75 /* witchdoctor_corpsespider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = witchdoctor_corpsespider.png; sourceTree = "<group>"; };
+		EFCFB2F51440AF9100428E75 /* witchdoctor_fetisharmy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = witchdoctor_fetisharmy.png; sourceTree = "<group>"; };
+		EFCFB2F61440AF9100428E75 /* witchdoctor_firebats.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = witchdoctor_firebats.png; sourceTree = "<group>"; };
+		EFCFB2F71440AF9100428E75 /* witchdoctor_firebomb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = witchdoctor_firebomb.png; sourceTree = "<group>"; };
+		EFCFB2F81440AF9100428E75 /* witchdoctor_gargantuan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = witchdoctor_gargantuan.png; sourceTree = "<group>"; };
+		EFCFB2F91440AF9100428E75 /* witchdoctor_graspofthedead.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = witchdoctor_graspofthedead.png; sourceTree = "<group>"; };
+		EFCFB2FA1440AF9100428E75 /* witchdoctor_haunt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = witchdoctor_haunt.png; sourceTree = "<group>"; };
+		EFCFB2FB1440AF9100428E75 /* witchdoctor_hex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = witchdoctor_hex.png; sourceTree = "<group>"; };
+		EFCFB2FC1440AF9100428E75 /* witchdoctor_horrify.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = witchdoctor_horrify.png; sourceTree = "<group>"; };
+		EFCFB2FD1440AF9100428E75 /* witchdoctor_locust_swarm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = witchdoctor_locust_swarm.png; sourceTree = "<group>"; };
+		EFCFB2FE1440AF9100428E75 /* witchdoctor_massconfusion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = witchdoctor_massconfusion.png; sourceTree = "<group>"; };
+		EFCFB2FF1440AF9100428E75 /* witchdoctor_plagueoftoads.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = witchdoctor_plagueoftoads.png; sourceTree = "<group>"; };
+		EFCFB3001440AF9100428E75 /* witchdoctor_poisondart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = witchdoctor_poisondart.png; sourceTree = "<group>"; };
+		EFCFB3011440AF9100428E75 /* witchdoctor_sacrifice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = witchdoctor_sacrifice.png; sourceTree = "<group>"; };
+		EFCFB3021440AF9100428E75 /* witchdoctor_soulharvest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = witchdoctor_soulharvest.png; sourceTree = "<group>"; };
+		EFCFB3031440AF9100428E75 /* witchdoctor_spiritbarrage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = witchdoctor_spiritbarrage.png; sourceTree = "<group>"; };
+		EFCFB3041440AF9100428E75 /* witchdoctor_spiritwalk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = witchdoctor_spiritwalk.png; sourceTree = "<group>"; };
+		EFCFB3051440AF9100428E75 /* witchdoctor_summonzombiedog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = witchdoctor_summonzombiedog.png; sourceTree = "<group>"; };
+		EFCFB3061440AF9100428E75 /* witchdoctor_wallofzombies.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = witchdoctor_wallofzombies.png; sourceTree = "<group>"; };
+		EFCFB3071440AF9100428E75 /* witchdoctor_zombiecharger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = witchdoctor_zombiecharger.png; sourceTree = "<group>"; };
+		EFCFB3081440AF9100428E75 /* wizard_arcaneorb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_arcaneorb.png; sourceTree = "<group>"; };
+		EFCFB3091440AF9100428E75 /* wizard_arcanetorrent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_arcanetorrent.png; sourceTree = "<group>"; };
+		EFCFB30A1440AF9100428E75 /* wizard_archon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_archon.png; sourceTree = "<group>"; };
+		EFCFB30B1440AF9100428E75 /* wizard_blizzard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_blizzard.png; sourceTree = "<group>"; };
+		EFCFB30C1440AF9100428E75 /* wizard_diamondskin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_diamondskin.png; sourceTree = "<group>"; };
+		EFCFB30D1440AF9100428E75 /* wizard_disintegrate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_disintegrate.png; sourceTree = "<group>"; };
+		EFCFB30E1440AF9100428E75 /* wizard_electrocute.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_electrocute.png; sourceTree = "<group>"; };
+		EFCFB30F1440AF9100428E75 /* wizard_energyarmor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_energyarmor.png; sourceTree = "<group>"; };
+		EFCFB3101440AF9100428E75 /* wizard_energytwister.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_energytwister.png; sourceTree = "<group>"; };
+		EFCFB3111440AF9100428E75 /* wizard_explosiveblast.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_explosiveblast.png; sourceTree = "<group>"; };
+		EFCFB3121440AF9100428E75 /* wizard_familiar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_familiar.png; sourceTree = "<group>"; };
+		EFCFB3131440AF9100428E75 /* wizard_frostnova.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_frostnova.png; sourceTree = "<group>"; };
+		EFCFB3141440AF9100428E75 /* wizard_hydra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_hydra.png; sourceTree = "<group>"; };
+		EFCFB3151440AF9100428E75 /* wizard_icearmor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_icearmor.png; sourceTree = "<group>"; };
+		EFCFB3161440AF9100428E75 /* wizard_magicmissile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_magicmissile.png; sourceTree = "<group>"; };
+		EFCFB3171440AF9100428E75 /* wizard_magicweapon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_magicweapon.png; sourceTree = "<group>"; };
+		EFCFB3181440AF9100428E75 /* wizard_meteor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_meteor.png; sourceTree = "<group>"; };
+		EFCFB3191440AF9100428E75 /* wizard_mirrorimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_mirrorimage.png; sourceTree = "<group>"; };
+		EFCFB31A1440AF9100428E75 /* wizard_rayoffrost.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_rayoffrost.png; sourceTree = "<group>"; };
+		EFCFB31B1440AF9100428E75 /* wizard_shockpulse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_shockpulse.png; sourceTree = "<group>"; };
+		EFCFB31C1440AF9100428E75 /* wizard_slowtime.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_slowtime.png; sourceTree = "<group>"; };
+		EFCFB31D1440AF9100428E75 /* wizard_spectralblade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_spectralblade.png; sourceTree = "<group>"; };
+		EFCFB31E1440AF9100428E75 /* wizard_stormarmor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_stormarmor.png; sourceTree = "<group>"; };
+		EFCFB31F1440AF9100428E75 /* wizard_teleport.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_teleport.png; sourceTree = "<group>"; };
+		EFCFB3201440AF9100428E75 /* wizard_waveofforce.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard_waveofforce.png; sourceTree = "<group>"; };
+		EFCFB38C1440B5C000428E75 /* levelicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = levelicon.png; sourceTree = "<group>"; };
+		EFCFB3951441CDA600428E75 /* barbarian_ancientspear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbarian_ancientspear.png; sourceTree = "<group>"; };
+		EFCFB3961441CDA600428E75 /* barbarian_bash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbarian_bash.png; sourceTree = "<group>"; };
+		EFCFB3971441CDA600428E75 /* barbarian_battlerage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbarian_battlerage.png; sourceTree = "<group>"; };
+		EFCFB3981441CDA600428E75 /* barbarian_calloftheancients.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbarian_calloftheancients.png; sourceTree = "<group>"; };
+		EFCFB3991441CDA600428E75 /* barbarian_cleave.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbarian_cleave.png; sourceTree = "<group>"; };
+		EFCFB39A1441CDA600428E75 /* barbarian_earthquake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbarian_earthquake.png; sourceTree = "<group>"; };
+		EFCFB39B1441CDA600428E75 /* barbarian_frenzy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbarian_frenzy.png; sourceTree = "<group>"; };
+		EFCFB39C1441CDA600428E75 /* barbarian_furiouscharge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbarian_furiouscharge.png; sourceTree = "<group>"; };
+		EFCFB39D1441CDA700428E75 /* barbarian_groundstomp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbarian_groundstomp.png; sourceTree = "<group>"; };
+		EFCFB39E1441CDA700428E75 /* barbarian_hammeroftheancients.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbarian_hammeroftheancients.png; sourceTree = "<group>"; };
+		EFCFB39F1441CDA700428E75 /* barbarian_ignorepain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbarian_ignorepain.png; sourceTree = "<group>"; };
+		EFCFB3A01441CDA700428E75 /* barbarian_leap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbarian_leap.png; sourceTree = "<group>"; };
+		EFCFB3A11441CDA700428E75 /* barbarian_overpower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbarian_overpower.png; sourceTree = "<group>"; };
+		EFCFB3A21441CDA700428E75 /* barbarian_rend.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbarian_rend.png; sourceTree = "<group>"; };
+		EFCFB3A31441CDA700428E75 /* barbarian_revenge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbarian_revenge.png; sourceTree = "<group>"; };
+		EFCFB3A41441CDA700428E75 /* barbarian_seismicslam.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbarian_seismicslam.png; sourceTree = "<group>"; };
+		EFCFB3A51441CDA700428E75 /* barbarian_sprint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbarian_sprint.png; sourceTree = "<group>"; };
+		EFCFB3A61441CDA700428E75 /* barbarian_threateningshout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbarian_threateningshout.png; sourceTree = "<group>"; };
+		EFCFB3A71441CDA700428E75 /* barbarian_warcry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbarian_warcry.png; sourceTree = "<group>"; };
+		EFCFB3A81441CDA700428E75 /* barbarian_weaponthrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbarian_weaponthrow.png; sourceTree = "<group>"; };
+		EFCFB3A91441CDA800428E75 /* barbarian_whirlwind.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbarian_whirlwind.png; sourceTree = "<group>"; };
+		EFCFB3AA1441CDA800428E75 /* barbarian_wrathoftheberserker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbarian_wrathoftheberserker.png; sourceTree = "<group>"; };
+		EFD4D178143C989D00B9FCF9 /* diablo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = diablo.ttf; sourceTree = "<group>"; };
+		EFD4D17E143C9C9500B9FCF9 /* diabloheavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = diabloheavy.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +351,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFCDA02E143FF995000B0D0F /* CoreData.framework in Frameworks */,
+				EF7203AF143B66450009B868 /* AVFoundation.framework in Frameworks */,
+				EF7203AD143B663F0009B868 /* MediaPlayer.framework in Frameworks */,
 				EF72038D143B65FB0009B868 /* UIKit.framework in Frameworks */,
 				EF72038F143B65FB0009B868 /* Foundation.framework in Frameworks */,
 				EF720391143B65FB0009B868 /* CoreGraphics.framework in Frameworks */,
@@ -49,9 +363,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF41F2A014407DA100F75685 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				EFCFB2891440A09600428E75 /* BBR.png */,
+				EFCFB2B71440AF5E00428E75 /* allicons */,
+				EF7203B0143B66980009B868 /* iphone1.m4v */,
+				EFCD9FF6143F6255000B0D0F /* texture.jpg */,
+				EF6480F6143F492D0039713E /* DH.png */,
+				EF6480F7143F492D0039713E /* MK.png */,
+				EFCFB38C1440B5C000428E75 /* levelicon.png */,
+				EF6480F8143F492D0039713E /* WD.png */,
+				EF6480F9143F492D0039713E /* WZ.png */,
+				EFD4D17E143C9C9500B9FCF9 /* diabloheavy.ttf */,
+				EFD4D178143C989D00B9FCF9 /* diablo.ttf */,
+				EFCD9FE7143F571A000B0D0F /* bbr2.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		EF72037D143B65FA0009B868 = {
 			isa = PBXGroup;
 			children = (
+				EFCDA02D143FF995000B0D0F /* CoreData.framework */,
+				EF7203AE143B66450009B868 /* AVFoundation.framework */,
+				EF7203AC143B663F0009B868 /* MediaPlayer.framework */,
 				EF720392143B65FB0009B868 /* D3 */,
 				EF72038B143B65FB0009B868 /* Frameworks */,
 				EF720389143B65FB0009B868 /* Products */,
@@ -79,12 +415,41 @@
 		EF720392143B65FB0009B868 /* D3 */ = {
 			isa = PBXGroup;
 			children = (
+				EF41F2A014407DA100F75685 /* images */,
 				EF72039B143B65FB0009B868 /* D3AppDelegate.h */,
+				EFCDA02F143FFB29000B0D0F /* Model.xcdatamodeld */,
+				EF4E851E1441F48D00A93E68 /* Skill.h */,
+				EF4E851F1441F48D00A93E68 /* Skill.m */,
+				EF4E85211441F88200A93E68 /* Diablo3.sqlite */,
 				EF72039C143B65FB0009B868 /* D3AppDelegate.m */,
 				EF72039E143B65FB0009B868 /* MainWindow.xib */,
+				EF7203B2143B6BA50009B868 /* BGViewController.h */,
+				EF7203B3143B6BA50009B868 /* BGViewController.m */,
+				EF7203B4143B6BA50009B868 /* BGViewController.xib */,
 				EF7203A1143B65FB0009B868 /* RootViewController.h */,
 				EF7203A2143B65FB0009B868 /* RootViewController.m */,
-				EF7203A4143B65FB0009B868 /* RootViewController.xib */,
+				EF6480F3143F48B00039713E /* RootViewController.xib */,
+				EFCD9FF0143F57B9000B0D0F /* SkillCell.h */,
+				EFCD9FF1143F57B9000B0D0F /* SkillCell.m */,
+				EFCD9FEE143F57A6000B0D0F /* SkillCell.xib */,
+				EF6480FF143F4CB30039713E /* BabarianViewController.h */,
+				EF648100143F4CB30039713E /* BabarianViewController.m */,
+				EF648101143F4CB30039713E /* BabarianViewController.xib */,
+				EF648104143F4DA80039713E /* WizardViewController.h */,
+				EF648105143F4DA80039713E /* WizardViewController.m */,
+				EF648106143F4DA90039713E /* WizardViewController.xib */,
+				EF648109143F4DBF0039713E /* MonkViewController.h */,
+				EF64810A143F4DBF0039713E /* MonkViewController.m */,
+				EF64810B143F4DBF0039713E /* MonkViewController.xib */,
+				EF64810E143F4DE40039713E /* WitchDoctorViewController.h */,
+				EF64810F143F4DE40039713E /* WitchDoctorViewController.m */,
+				EF648110143F4DE40039713E /* WitchDoctorViewController.xib */,
+				EF648113143F4DFA0039713E /* DemonHunterViewController.h */,
+				EF648114143F4DFA0039713E /* DemonHunterViewController.m */,
+				EF648115143F4DFA0039713E /* DemonHunterViewController.xib */,
+				EFCD9FE9143F5758000B0D0F /* SkillDetailViewController.h */,
+				EFCD9FEA143F5758000B0D0F /* SkillDetailViewController.m */,
+				EFCD9FEB143F5759000B0D0F /* SkillDetailViewController.xib */,
 				EF720393143B65FB0009B868 /* Supporting Files */,
 			);
 			path = D3;
@@ -99,6 +464,131 @@
 				EF72039A143B65FB0009B868 /* D3-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFCFB2B71440AF5E00428E75 /* allicons */ = {
+			isa = PBXGroup;
+			children = (
+				EF4E85231441FCA900A93E68 /* alabaster.png */,
+				EF4E85241441FCA900A93E68 /* crimson.png */,
+				EF4E85251441FCA900A93E68 /* golden.png */,
+				EF4E85261441FCA900A93E68 /* indigo.png */,
+				EF4E85271441FCA900A93E68 /* obsidian.png */,
+				EFCFB3951441CDA600428E75 /* barbarian_ancientspear.png */,
+				EFCFB3961441CDA600428E75 /* barbarian_bash.png */,
+				EFCFB3971441CDA600428E75 /* barbarian_battlerage.png */,
+				EFCFB3981441CDA600428E75 /* barbarian_calloftheancients.png */,
+				EFCFB3991441CDA600428E75 /* barbarian_cleave.png */,
+				EFCFB39A1441CDA600428E75 /* barbarian_earthquake.png */,
+				EFCFB39B1441CDA600428E75 /* barbarian_frenzy.png */,
+				EFCFB39C1441CDA600428E75 /* barbarian_furiouscharge.png */,
+				EFCFB39D1441CDA700428E75 /* barbarian_groundstomp.png */,
+				EFCFB39E1441CDA700428E75 /* barbarian_hammeroftheancients.png */,
+				EFCFB39F1441CDA700428E75 /* barbarian_ignorepain.png */,
+				EFCFB3A01441CDA700428E75 /* barbarian_leap.png */,
+				EFCFB3A11441CDA700428E75 /* barbarian_overpower.png */,
+				EFCFB3A21441CDA700428E75 /* barbarian_rend.png */,
+				EFCFB3A31441CDA700428E75 /* barbarian_revenge.png */,
+				EFCFB3A41441CDA700428E75 /* barbarian_seismicslam.png */,
+				EFCFB3A51441CDA700428E75 /* barbarian_sprint.png */,
+				EFCFB3A61441CDA700428E75 /* barbarian_threateningshout.png */,
+				EFCFB3A71441CDA700428E75 /* barbarian_warcry.png */,
+				EFCFB3A81441CDA700428E75 /* barbarian_weaponthrow.png */,
+				EFCFB3A91441CDA800428E75 /* barbarian_whirlwind.png */,
+				EFCFB3AA1441CDA800428E75 /* barbarian_wrathoftheberserker.png */,
+				EFCFB2C61440AF9100428E75 /* demonhunter_bolashot.png */,
+				EFCFB2C71440AF9100428E75 /* demonhunter_caltrops.png */,
+				EFCFB2C81440AF9100428E75 /* demonhunter_chakram.png */,
+				EFCFB2C91440AF9100428E75 /* demonhunter_clusterarrow.png */,
+				EFCFB2CA1440AF9100428E75 /* demonhunter_companion.png */,
+				EFCFB2CB1440AF9100428E75 /* demonhunter_elementalarrow.png */,
+				EFCFB2CC1440AF9100428E75 /* demonhunter_entanglingshot.png */,
+				EFCFB2CD1440AF9100428E75 /* demonhunter_fanofknives.png */,
+				EFCFB2CE1440AF9100428E75 /* demonhunter_grenades.png */,
+				EFCFB2CF1440AF9100428E75 /* demonhunter_hungeringarrow.png */,
+				EFCFB2D01440AF9100428E75 /* demonhunter_impale.png */,
+				EFCFB2D11440AF9100428E75 /* demonhunter_markedfordeath.png */,
+				EFCFB2D21440AF9100428E75 /* demonhunter_multishot.png */,
+				EFCFB2D31440AF9100428E75 /* demonhunter_preparation.png */,
+				EFCFB2D41440AF9100428E75 /* demonhunter_rainofvengeance.png */,
+				EFCFB2D51440AF9100428E75 /* demonhunter_rapidfire.png */,
+				EFCFB2D61440AF9100428E75 /* demonhunter_safetyshot.png */,
+				EFCFB2D71440AF9100428E75 /* demonhunter_sentry.png */,
+				EFCFB2D81440AF9100428E75 /* demonhunter_shadowpower.png */,
+				EFCFB2D91440AF9100428E75 /* demonhunter_smokescreen.png */,
+				EFCFB2DA1440AF9100428E75 /* demonhunter_spiketrap.png */,
+				EFCFB2DB1440AF9100428E75 /* demonhunter_strafe.png */,
+				EFCFB2DC1440AF9100428E75 /* demonhunter_vault.png */,
+				EFCFB2DD1440AF9100428E75 /* monk_blindingflash.png */,
+				EFCFB2DE1440AF9100428E75 /* monk_breathofheaven.png */,
+				EFCFB2DF1440AF9100428E75 /* monk_cripplingwave.png */,
+				EFCFB2E01440AF9100428E75 /* monk_dashingstrike.png */,
+				EFCFB2E11440AF9100428E75 /* monk_deadlyreach.png */,
+				EFCFB2E21440AF9100428E75 /* monk_explodingpalm.png */,
+				EFCFB2E31440AF9100428E75 /* monk_fistsofthunder.png */,
+				EFCFB2E41440AF9100428E75 /* monk_innersanctuary.png */,
+				EFCFB2E51440AF9100428E75 /* monk_lashingtailkick.png */,
+				EFCFB2E61440AF9100428E75 /* monk_lethaldecoy.png */,
+				EFCFB2E71440AF9100428E75 /* monk_mantraofconviction.png */,
+				EFCFB2E81440AF9100428E75 /* monk_mantraofevasion.png */,
+				EFCFB2E91440AF9100428E75 /* monk_mantraofhealing.png */,
+				EFCFB2EA1440AF9100428E75 /* monk_mantraofretribution.png */,
+				EFCFB2EB1440AF9100428E75 /* monk_mystically.png */,
+				EFCFB2EC1440AF9100428E75 /* monk_serenity.png */,
+				EFCFB2ED1440AF9100428E75 /* monk_sevensidedstrike.png */,
+				EFCFB2EE1440AF9100428E75 /* monk_sweepingwind.png */,
+				EFCFB2EF1440AF9100428E75 /* monk_tempestrush.png */,
+				EFCFB2F01440AF9100428E75 /* monk_waveoflight.png */,
+				EFCFB2F11440AF9100428E75 /* monk_wayofthehundredfists.png */,
+				EFCFB2F21440AF9100428E75 /* witchdoctor_acidcloud.png */,
+				EFCFB2F31440AF9100428E75 /* witchdoctor_bigbadvoodoo.png */,
+				EFCFB2F41440AF9100428E75 /* witchdoctor_corpsespider.png */,
+				EFCFB2F51440AF9100428E75 /* witchdoctor_fetisharmy.png */,
+				EFCFB2F61440AF9100428E75 /* witchdoctor_firebats.png */,
+				EFCFB2F71440AF9100428E75 /* witchdoctor_firebomb.png */,
+				EFCFB2F81440AF9100428E75 /* witchdoctor_gargantuan.png */,
+				EFCFB2F91440AF9100428E75 /* witchdoctor_graspofthedead.png */,
+				EFCFB2FA1440AF9100428E75 /* witchdoctor_haunt.png */,
+				EFCFB2FB1440AF9100428E75 /* witchdoctor_hex.png */,
+				EFCFB2FC1440AF9100428E75 /* witchdoctor_horrify.png */,
+				EFCFB2FD1440AF9100428E75 /* witchdoctor_locust_swarm.png */,
+				EFCFB2FE1440AF9100428E75 /* witchdoctor_massconfusion.png */,
+				EFCFB2FF1440AF9100428E75 /* witchdoctor_plagueoftoads.png */,
+				EFCFB3001440AF9100428E75 /* witchdoctor_poisondart.png */,
+				EFCFB3011440AF9100428E75 /* witchdoctor_sacrifice.png */,
+				EFCFB3021440AF9100428E75 /* witchdoctor_soulharvest.png */,
+				EFCFB3031440AF9100428E75 /* witchdoctor_spiritbarrage.png */,
+				EFCFB3041440AF9100428E75 /* witchdoctor_spiritwalk.png */,
+				EFCFB3051440AF9100428E75 /* witchdoctor_summonzombiedog.png */,
+				EFCFB3061440AF9100428E75 /* witchdoctor_wallofzombies.png */,
+				EFCFB3071440AF9100428E75 /* witchdoctor_zombiecharger.png */,
+				EFCFB3081440AF9100428E75 /* wizard_arcaneorb.png */,
+				EFCFB3091440AF9100428E75 /* wizard_arcanetorrent.png */,
+				EFCFB30A1440AF9100428E75 /* wizard_archon.png */,
+				EFCFB30B1440AF9100428E75 /* wizard_blizzard.png */,
+				EFCFB30C1440AF9100428E75 /* wizard_diamondskin.png */,
+				EFCFB30D1440AF9100428E75 /* wizard_disintegrate.png */,
+				EFCFB30E1440AF9100428E75 /* wizard_electrocute.png */,
+				EFCFB30F1440AF9100428E75 /* wizard_energyarmor.png */,
+				EFCFB3101440AF9100428E75 /* wizard_energytwister.png */,
+				EFCFB3111440AF9100428E75 /* wizard_explosiveblast.png */,
+				EFCFB3121440AF9100428E75 /* wizard_familiar.png */,
+				EFCFB3131440AF9100428E75 /* wizard_frostnova.png */,
+				EFCFB3141440AF9100428E75 /* wizard_hydra.png */,
+				EFCFB3151440AF9100428E75 /* wizard_icearmor.png */,
+				EFCFB3161440AF9100428E75 /* wizard_magicmissile.png */,
+				EFCFB3171440AF9100428E75 /* wizard_magicweapon.png */,
+				EFCFB3181440AF9100428E75 /* wizard_meteor.png */,
+				EFCFB3191440AF9100428E75 /* wizard_mirrorimage.png */,
+				EFCFB31A1440AF9100428E75 /* wizard_rayoffrost.png */,
+				EFCFB31B1440AF9100428E75 /* wizard_shockpulse.png */,
+				EFCFB31C1440AF9100428E75 /* wizard_slowtime.png */,
+				EFCFB31D1440AF9100428E75 /* wizard_spectralblade.png */,
+				EFCFB31E1440AF9100428E75 /* wizard_stormarmor.png */,
+				EFCFB31F1440AF9100428E75 /* wizard_teleport.png */,
+				EFCFB3201440AF9100428E75 /* wizard_waveofforce.png */,
+			);
+			name = allicons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +616,9 @@
 /* Begin PBXProject section */
 		EF72037F143B65FA0009B868 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
 			buildConfigurationList = EF720382143B65FA0009B868 /* Build configuration list for PBXProject "D3" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -150,7 +643,145 @@
 			files = (
 				EF720397143B65FB0009B868 /* InfoPlist.strings in Resources */,
 				EF7203A0143B65FB0009B868 /* MainWindow.xib in Resources */,
-				EF7203A6143B65FB0009B868 /* RootViewController.xib in Resources */,
+				EF7203B1143B66980009B868 /* iphone1.m4v in Resources */,
+				EF7203B6143B6BA50009B868 /* BGViewController.xib in Resources */,
+				EFD4D179143C989D00B9FCF9 /* diablo.ttf in Resources */,
+				EFD4D17F143C9C9500B9FCF9 /* diabloheavy.ttf in Resources */,
+				EF6480F4143F48B00039713E /* RootViewController.xib in Resources */,
+				EF6480FB143F492D0039713E /* DH.png in Resources */,
+				EF6480FC143F492D0039713E /* MK.png in Resources */,
+				EF6480FD143F492D0039713E /* WD.png in Resources */,
+				EF6480FE143F492D0039713E /* WZ.png in Resources */,
+				EF648103143F4CB30039713E /* BabarianViewController.xib in Resources */,
+				EF648108143F4DA90039713E /* WizardViewController.xib in Resources */,
+				EF64810D143F4DBF0039713E /* MonkViewController.xib in Resources */,
+				EF648112143F4DE40039713E /* WitchDoctorViewController.xib in Resources */,
+				EF648117143F4DFA0039713E /* DemonHunterViewController.xib in Resources */,
+				EFCD9FE8143F571A000B0D0F /* bbr2.png in Resources */,
+				EFCD9FED143F5759000B0D0F /* SkillDetailViewController.xib in Resources */,
+				EFCD9FEF143F57A7000B0D0F /* SkillCell.xib in Resources */,
+				EFCD9FF7143F6256000B0D0F /* texture.jpg in Resources */,
+				EFCFB2A01440A09600428E75 /* BBR.png in Resources */,
+				EFCFB32F1440AF9100428E75 /* demonhunter_bolashot.png in Resources */,
+				EFCFB3301440AF9100428E75 /* demonhunter_caltrops.png in Resources */,
+				EFCFB3311440AF9100428E75 /* demonhunter_chakram.png in Resources */,
+				EFCFB3321440AF9100428E75 /* demonhunter_clusterarrow.png in Resources */,
+				EFCFB3331440AF9100428E75 /* demonhunter_companion.png in Resources */,
+				EFCFB3341440AF9100428E75 /* demonhunter_elementalarrow.png in Resources */,
+				EFCFB3351440AF9100428E75 /* demonhunter_entanglingshot.png in Resources */,
+				EFCFB3361440AF9100428E75 /* demonhunter_fanofknives.png in Resources */,
+				EFCFB3371440AF9100428E75 /* demonhunter_grenades.png in Resources */,
+				EFCFB3381440AF9100428E75 /* demonhunter_hungeringarrow.png in Resources */,
+				EFCFB3391440AF9100428E75 /* demonhunter_impale.png in Resources */,
+				EFCFB33A1440AF9100428E75 /* demonhunter_markedfordeath.png in Resources */,
+				EFCFB33B1440AF9100428E75 /* demonhunter_multishot.png in Resources */,
+				EFCFB33C1440AF9100428E75 /* demonhunter_preparation.png in Resources */,
+				EFCFB33D1440AF9100428E75 /* demonhunter_rainofvengeance.png in Resources */,
+				EFCFB33E1440AF9100428E75 /* demonhunter_rapidfire.png in Resources */,
+				EFCFB33F1440AF9100428E75 /* demonhunter_safetyshot.png in Resources */,
+				EFCFB3401440AF9100428E75 /* demonhunter_sentry.png in Resources */,
+				EFCFB3411440AF9100428E75 /* demonhunter_shadowpower.png in Resources */,
+				EFCFB3421440AF9100428E75 /* demonhunter_smokescreen.png in Resources */,
+				EFCFB3431440AF9100428E75 /* demonhunter_spiketrap.png in Resources */,
+				EFCFB3441440AF9100428E75 /* demonhunter_strafe.png in Resources */,
+				EFCFB3451440AF9100428E75 /* demonhunter_vault.png in Resources */,
+				EFCFB3461440AF9100428E75 /* monk_blindingflash.png in Resources */,
+				EFCFB3471440AF9100428E75 /* monk_breathofheaven.png in Resources */,
+				EFCFB3481440AF9100428E75 /* monk_cripplingwave.png in Resources */,
+				EFCFB3491440AF9100428E75 /* monk_dashingstrike.png in Resources */,
+				EFCFB34A1440AF9100428E75 /* monk_deadlyreach.png in Resources */,
+				EFCFB34B1440AF9100428E75 /* monk_explodingpalm.png in Resources */,
+				EFCFB34C1440AF9100428E75 /* monk_fistsofthunder.png in Resources */,
+				EFCFB34D1440AF9100428E75 /* monk_innersanctuary.png in Resources */,
+				EFCFB34E1440AF9100428E75 /* monk_lashingtailkick.png in Resources */,
+				EFCFB34F1440AF9100428E75 /* monk_lethaldecoy.png in Resources */,
+				EFCFB3501440AF9100428E75 /* monk_mantraofconviction.png in Resources */,
+				EFCFB3511440AF9100428E75 /* monk_mantraofevasion.png in Resources */,
+				EFCFB3521440AF9100428E75 /* monk_mantraofhealing.png in Resources */,
+				EFCFB3531440AF9100428E75 /* monk_mantraofretribution.png in Resources */,
+				EFCFB3541440AF9100428E75 /* monk_mystically.png in Resources */,
+				EFCFB3551440AF9100428E75 /* monk_serenity.png in Resources */,
+				EFCFB3561440AF9100428E75 /* monk_sevensidedstrike.png in Resources */,
+				EFCFB3571440AF9100428E75 /* monk_sweepingwind.png in Resources */,
+				EFCFB3581440AF9100428E75 /* monk_tempestrush.png in Resources */,
+				EFCFB3591440AF9100428E75 /* monk_waveoflight.png in Resources */,
+				EFCFB35A1440AF9100428E75 /* monk_wayofthehundredfists.png in Resources */,
+				EFCFB35B1440AF9100428E75 /* witchdoctor_acidcloud.png in Resources */,
+				EFCFB35C1440AF9100428E75 /* witchdoctor_bigbadvoodoo.png in Resources */,
+				EFCFB35D1440AF9100428E75 /* witchdoctor_corpsespider.png in Resources */,
+				EFCFB35E1440AF9100428E75 /* witchdoctor_fetisharmy.png in Resources */,
+				EFCFB35F1440AF9100428E75 /* witchdoctor_firebats.png in Resources */,
+				EFCFB3601440AF9100428E75 /* witchdoctor_firebomb.png in Resources */,
+				EFCFB3611440AF9100428E75 /* witchdoctor_gargantuan.png in Resources */,
+				EFCFB3621440AF9100428E75 /* witchdoctor_graspofthedead.png in Resources */,
+				EFCFB3631440AF9100428E75 /* witchdoctor_haunt.png in Resources */,
+				EFCFB3641440AF9100428E75 /* witchdoctor_hex.png in Resources */,
+				EFCFB3651440AF9100428E75 /* witchdoctor_horrify.png in Resources */,
+				EFCFB3661440AF9100428E75 /* witchdoctor_locust_swarm.png in Resources */,
+				EFCFB3671440AF9100428E75 /* witchdoctor_massconfusion.png in Resources */,
+				EFCFB3681440AF9100428E75 /* witchdoctor_plagueoftoads.png in Resources */,
+				EFCFB3691440AF9100428E75 /* witchdoctor_poisondart.png in Resources */,
+				EFCFB36A1440AF9100428E75 /* witchdoctor_sacrifice.png in Resources */,
+				EFCFB36B1440AF9100428E75 /* witchdoctor_soulharvest.png in Resources */,
+				EFCFB36C1440AF9100428E75 /* witchdoctor_spiritbarrage.png in Resources */,
+				EFCFB36D1440AF9100428E75 /* witchdoctor_spiritwalk.png in Resources */,
+				EFCFB36E1440AF9100428E75 /* witchdoctor_summonzombiedog.png in Resources */,
+				EFCFB36F1440AF9100428E75 /* witchdoctor_wallofzombies.png in Resources */,
+				EFCFB3701440AF9100428E75 /* witchdoctor_zombiecharger.png in Resources */,
+				EFCFB3711440AF9100428E75 /* wizard_arcaneorb.png in Resources */,
+				EFCFB3721440AF9100428E75 /* wizard_arcanetorrent.png in Resources */,
+				EFCFB3731440AF9100428E75 /* wizard_archon.png in Resources */,
+				EFCFB3741440AF9100428E75 /* wizard_blizzard.png in Resources */,
+				EFCFB3751440AF9100428E75 /* wizard_diamondskin.png in Resources */,
+				EFCFB3761440AF9100428E75 /* wizard_disintegrate.png in Resources */,
+				EFCFB3771440AF9100428E75 /* wizard_electrocute.png in Resources */,
+				EFCFB3781440AF9100428E75 /* wizard_energyarmor.png in Resources */,
+				EFCFB3791440AF9100428E75 /* wizard_energytwister.png in Resources */,
+				EFCFB37A1440AF9100428E75 /* wizard_explosiveblast.png in Resources */,
+				EFCFB37B1440AF9100428E75 /* wizard_familiar.png in Resources */,
+				EFCFB37C1440AF9100428E75 /* wizard_frostnova.png in Resources */,
+				EFCFB37D1440AF9100428E75 /* wizard_hydra.png in Resources */,
+				EFCFB37E1440AF9100428E75 /* wizard_icearmor.png in Resources */,
+				EFCFB37F1440AF9100428E75 /* wizard_magicmissile.png in Resources */,
+				EFCFB3801440AF9100428E75 /* wizard_magicweapon.png in Resources */,
+				EFCFB3811440AF9100428E75 /* wizard_meteor.png in Resources */,
+				EFCFB3821440AF9100428E75 /* wizard_mirrorimage.png in Resources */,
+				EFCFB3831440AF9100428E75 /* wizard_rayoffrost.png in Resources */,
+				EFCFB3841440AF9100428E75 /* wizard_shockpulse.png in Resources */,
+				EFCFB3851440AF9100428E75 /* wizard_slowtime.png in Resources */,
+				EFCFB3861440AF9100428E75 /* wizard_spectralblade.png in Resources */,
+				EFCFB3871440AF9100428E75 /* wizard_stormarmor.png in Resources */,
+				EFCFB3881440AF9100428E75 /* wizard_teleport.png in Resources */,
+				EFCFB3891440AF9100428E75 /* wizard_waveofforce.png in Resources */,
+				EFCFB38D1440B5C000428E75 /* levelicon.png in Resources */,
+				EFCFB3AB1441CDA800428E75 /* barbarian_ancientspear.png in Resources */,
+				EFCFB3AC1441CDA800428E75 /* barbarian_bash.png in Resources */,
+				EFCFB3AD1441CDA800428E75 /* barbarian_battlerage.png in Resources */,
+				EFCFB3AE1441CDA800428E75 /* barbarian_calloftheancients.png in Resources */,
+				EFCFB3AF1441CDA800428E75 /* barbarian_cleave.png in Resources */,
+				EFCFB3B01441CDA800428E75 /* barbarian_earthquake.png in Resources */,
+				EFCFB3B11441CDA800428E75 /* barbarian_frenzy.png in Resources */,
+				EFCFB3B21441CDA800428E75 /* barbarian_furiouscharge.png in Resources */,
+				EFCFB3B31441CDA800428E75 /* barbarian_groundstomp.png in Resources */,
+				EFCFB3B41441CDA800428E75 /* barbarian_hammeroftheancients.png in Resources */,
+				EFCFB3B51441CDA800428E75 /* barbarian_ignorepain.png in Resources */,
+				EFCFB3B61441CDA800428E75 /* barbarian_leap.png in Resources */,
+				EFCFB3B71441CDA800428E75 /* barbarian_overpower.png in Resources */,
+				EFCFB3B81441CDA800428E75 /* barbarian_rend.png in Resources */,
+				EFCFB3B91441CDA800428E75 /* barbarian_revenge.png in Resources */,
+				EFCFB3BA1441CDA800428E75 /* barbarian_seismicslam.png in Resources */,
+				EFCFB3BB1441CDA800428E75 /* barbarian_sprint.png in Resources */,
+				EFCFB3BC1441CDA800428E75 /* barbarian_threateningshout.png in Resources */,
+				EFCFB3BD1441CDA800428E75 /* barbarian_warcry.png in Resources */,
+				EFCFB3BE1441CDA800428E75 /* barbarian_weaponthrow.png in Resources */,
+				EFCFB3BF1441CDA800428E75 /* barbarian_whirlwind.png in Resources */,
+				EFCFB3C01441CDA800428E75 /* barbarian_wrathoftheberserker.png in Resources */,
+				EF4E85221441F88200A93E68 /* Diablo3.sqlite in Resources */,
+				EF4E85281441FCA900A93E68 /* alabaster.png in Resources */,
+				EF4E85291441FCA900A93E68 /* crimson.png in Resources */,
+				EF4E852A1441FCA900A93E68 /* golden.png in Resources */,
+				EF4E852B1441FCA900A93E68 /* indigo.png in Resources */,
+				EF4E852C1441FCA900A93E68 /* obsidian.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +795,16 @@
 				EF720399143B65FB0009B868 /* main.m in Sources */,
 				EF72039D143B65FB0009B868 /* D3AppDelegate.m in Sources */,
 				EF7203A3143B65FB0009B868 /* RootViewController.m in Sources */,
+				EF7203B5143B6BA50009B868 /* BGViewController.m in Sources */,
+				EF648102143F4CB30039713E /* BabarianViewController.m in Sources */,
+				EF648107143F4DA90039713E /* WizardViewController.m in Sources */,
+				EF64810C143F4DBF0039713E /* MonkViewController.m in Sources */,
+				EF648111143F4DE40039713E /* WitchDoctorViewController.m in Sources */,
+				EF648116143F4DFA0039713E /* DemonHunterViewController.m in Sources */,
+				EFCD9FEC143F5759000B0D0F /* SkillDetailViewController.m in Sources */,
+				EFCD9FF2143F57B9000B0D0F /* SkillCell.m in Sources */,
+				EFCDA031143FFB2A000B0D0F /* Model.xcdatamodeld in Sources */,
+				EF4E85201441F48D00A93E68 /* Skill.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,14 +827,6 @@
 			name = MainWindow.xib;
 			sourceTree = "<group>";
 		};
-		EF7203A4143B65FB0009B868 /* RootViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EF7203A5143B65FB0009B868 /* en */,
-			);
-			name = RootViewController.xib;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -202,7 +835,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Lee Heng Hong (T53AB93G9J)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -217,6 +851,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "70C39B9B-415F-4A88-A13C-C5BF705714BE";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -226,7 +861,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Lee Heng Hong (T53AB93G9J)";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
@@ -235,6 +871,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "70C39B9B-415F-4A88-A13C-C5BF705714BE";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -243,10 +880,15 @@
 		EF7203AA143B65FB0009B868 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Lee Heng Hong (T53AB93G9J)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Lee Heng Hong (T53AB93G9J)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "D3/D3-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "D3/D3-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9CB1065C-B122-4EBE-BB45-EF50148DD3F4";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9CB1065C-B122-4EBE-BB45-EF50148DD3F4";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -254,10 +896,15 @@
 		EF7203AB143B65FB0009B868 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Lee Heng Hong (T53AB93G9J)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Lee Heng Hong (T53AB93G9J)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "D3/D3-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "D3/D3-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9CB1065C-B122-4EBE-BB45-EF50148DD3F4";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9CB1065C-B122-4EBE-BB45-EF50148DD3F4";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -281,8 +928,22 @@
 				EF7203AB143B65FB0009B868 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EFCDA02F143FFB29000B0D0F /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EFCDA030143FFB2A000B0D0F /* Model.xcdatamodel */,
+			);
+			currentVersion = EFCDA030143FFB2A000B0D0F /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = EF72037F143B65FA0009B868 /* Project object */;
 }

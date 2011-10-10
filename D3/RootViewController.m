@@ -7,13 +7,14 @@
 //
 
 #import "RootViewController.h"
-
+#import "Skill.h"
 @implementation RootViewController
-
+@synthesize managedObjectContext;
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [managedObjectContext save:nil];
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -44,82 +45,6 @@
 }
  */
 
-// Customize the number of sections in the table view.
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
-{
-    return 1;
-}
-
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
-{
-    return 0;
-}
-
-// Customize the appearance of table view cells.
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    static NSString *CellIdentifier = @"Cell";
-    
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-    if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
-    }
-
-    // Configure the cell.
-    return cell;
-}
-
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
-}
-*/
-
-/*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    if (editingStyle == UITableViewCellEditingStyleDelete)
-    {
-        // Delete the row from the data source.
-        [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    }
-    else if (editingStyle == UITableViewCellEditingStyleInsert)
-    {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view.
-    }   
-}
-*/
-
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath
-{
-}
-*/
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
-
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    /*
-    <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
-    // ...
-    // Pass the selected object to the new view controller.
-    [self.navigationController pushViewController:detailViewController animated:YES];
-    [detailViewController release];
-	*/
-}
 
 - (void)didReceiveMemoryWarning
 {
@@ -142,4 +67,36 @@
     [super dealloc];
 }
 
+-(IBAction)showBBR:(id)sender{
+    NSLog(@"show bbr");
+    NSLog(@"%@",self.navigationController);
+    BabarianViewController *viewController = [[BabarianViewController alloc]initWithNibName:@"BabarianViewController" bundle:nil];
+    viewController.managedObjectContext = self.managedObjectContext;
+    [self.navigationController pushViewController:viewController animated:YES];
+    [viewController release]; 
+}
+-(IBAction)showWD:(id)sender{
+    WitchDoctorViewController *viewController = [[WitchDoctorViewController alloc]initWithNibName:@"WitchDoctorViewController" bundle:nil];
+    viewController.managedObjectContext = self.managedObjectContext;
+    [self.navigationController pushViewController:viewController animated:YES];
+    [viewController release]; 
+}
+-(IBAction)showDH:(id)sender{
+    DemonHunterViewController *viewController = [[DemonHunterViewController alloc]initWithNibName:@"DemonHunterViewController" bundle:nil];
+    viewController.managedObjectContext = self.managedObjectContext;
+    [self.navigationController pushViewController:viewController animated:YES];
+    [viewController release];    
+}
+-(IBAction)showWZ:(id)sender{
+    WizardViewController *viewController = [[WizardViewController alloc]initWithNibName:@"WizardViewController" bundle:nil];
+    viewController.managedObjectContext = self.managedObjectContext;
+    [self.navigationController pushViewController:viewController animated:YES];
+    [viewController release]; 
+}
+-(IBAction)showMK:(id)sender{
+    MonkViewController *viewController = [[MonkViewController alloc]initWithNibName:@"MonkViewController" bundle:nil];
+    viewController.managedObjectContext = self.managedObjectContext;
+    [self.navigationController pushViewController:viewController animated:YES];
+    [viewController release]; 
+}
 @end
